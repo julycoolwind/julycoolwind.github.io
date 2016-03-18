@@ -1,7 +1,7 @@
 ---
-layout:post
-title: "jekyll的尝试过程"
-date: 2016-03018 16:51:34
+layout: post
+title:  "jekyll的尝试过程"
+date:   2016-03-18 16:51:34
 categories: jekyll
 ---
 
