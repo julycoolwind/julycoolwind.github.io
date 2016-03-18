@@ -18,9 +18,11 @@ categories: jekyll
      /Users/apple/.rvm/gems/ruby-2.0.0-p451/gems/listen-3.0.0/lib/listen/event/queue.rb:15: warning: toplevel constant Queue referenced by Thread::Queue
     /Users/apple/.rvm/gems/ruby-2.0.0-p451/gems/listen-3.0.0/lib/listen/event/loop.rb:15: warning: toplevel constant Queue referenced by Thread::Queue
     /Users/apple/.rvm/gems/ruby-2.0.0-p451/gems/listen-3.0.0/lib/listen/event/loop.rb:37: warning: toplevel constant Queue referenced by Thread::Queue
-     jekyll 3.1.2 | Error:  uninitialized constant Listen::Event::Loop::Timeout
+     jekyll 3.1.2 | Error:  uninitialized constant Listen::Event::Loop::Timeout   
+     
 最终通过比对**_config.yml**文件发现，添加如下的配置之后可以正常启动。
     
     gems:
         - jekyll-gist
+
 问题解决，具体的原因等以后慢慢查明。
