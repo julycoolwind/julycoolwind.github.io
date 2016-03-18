@@ -5,13 +5,14 @@ categories: jekyll
 ---
 
 * content
-{:toc}
+{:toc}   
+
 ## jekyll过程
 
-### 第一坑
-使用jekyll第一个坑，安装gem的时候虽然本机开了一个全局代理，但是依然不能成功。最后只有使用淘宝的镜像源才算是安装成功。
+### 第一坑   
+使用jekyll第一个坑，安装gem的时候虽然本机开了一个全局代理，但是依然不能成功。最后只有使用淘宝的镜像源才算是安装成功。   
 ### 第二坑
-安装成功之后有碰到启动失败的人体。一直报：   
+安装成功之后有碰到启动失败的问题。一直报：   
      
      /Users/apple/.rvm/gems/ruby-2.0.0-p451/gems/listen-3.0.0/lib/listen/event/queue.rb:15: warning: toplevel constant Queue referenced by Thread::Queue
     /Users/apple/.rvm/gems/ruby-2.0.0-p451/gems/listen-3.0.0/lib/listen/event/loop.rb:15: warning: toplevel constant Queue referenced by Thread::Queue
